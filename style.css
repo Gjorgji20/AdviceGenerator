@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(43, 43, 65);
+    padding-top: 150px;
+}
+.content
+{
+    width: 40%;
+    background-color: rgb(55, 55, 68);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.content >div
+{
+    width: 60%;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+div>img{
+    width: 100%;
+}
+code{
+    color: green;
+    text-transform: uppercase;
+
+}
+.content>button{
+    position: absolute;
+    bottom: -20px;
+    height: 40px;
+    width: 40px;
+    left: 47%;
+    border-radius: 50%;
+    background-color: yellowgreen;
+}
+
